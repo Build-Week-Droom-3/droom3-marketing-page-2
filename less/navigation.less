@@ -1,0 +1,74 @@
+.topnav {
+  overflow: hidden;
+  background-color:   #00274C;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  display: block;
+
+}
+
+.topnav a.icon {
+  background: #00274C;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #00274C  ;
+  color: purple;
+}
+
+.active {
+  background-color:  #00274C;
+  color: white;  
+}
+
+.topnav img{
+  height: 60px;
+
+}
+
+  
+  //tablet view
+  
+  @media @tablet{
+    
+  .topnav a.icon{
+    display: none;
+  }
+  
+  .topnav #myLinks {
+    float: right;
+    color: @color;
+    display: inline-block;
+    padding-bottom: 20px;
+  
+         a{
+    
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+  
+       a:hover{
+       background-color: #C1C8E4;
+       color: #8860D0;
+           }
+  
+          }
+  
+        }
+  }
