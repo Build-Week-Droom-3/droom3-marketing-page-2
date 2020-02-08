@@ -1,76 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Droom3</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="css/index.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Droom</title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script> 
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-  <div class="container home">
-   <header>
-      <div class="topnav">
-        <a href="#home" class="active"><img src="img/mylogo.png"></a>
-     <div id="myLinks">
-        <a href="contact.html" target="_blank">Find Jobs</a>
-        <a href="contact.html" target="_blank">Post a Job</a>
-        <a href="contact.html" target="_blank">Sign In</a>
-     </div>
-       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-       <i class="fa fa-bars"></i>
-       </a>
-     </div>
-  </header>
-   <section class="hero-image">
-     <div class="hero-text">
-       <h1>Find Your Dream Job Match Faster!</h1>
-       <p>Save Time. Maximize Job Search. Find Dream Career.</p>
-       <a href="contact.html" target="_blank"><button class="btn-class">Register Now</button></a>
-     </div>
- </section> 
- <section class="benefits">
-     <div class="benefit">
-       <h2>Normal Benefits</h2>
-       <ul>
-         <li>Easy to nevigate</li>
-         <li>Job Alerts</li>
-         <li>Up-to-date Job Listings</li>
-         <li>Unlimited Job Search</li>
-         <li>Company Reviews and salary Information</li>
-       </ul>
-     </div>
-     <div class="benefit">
-       <h2>Premeum Benefits</h2>
-       <ul>
-         <li>Featured Applicant</li>
-         <li>Direct message to recruiters</li>
-         <li>Applicant Insights</li>
-         <li>Who's viewed your profile</li>
-         <li>Instant access to salary insights</li>
-       </ul>
-     </div>
-   </section>
-   <footer>
-     <div class="bottom">
-     <div class="link" "same">
-       <a href="about.html">About Us</a>
-       <a href="contact.html" target="_blank">Job Seekers</a>
-       <a href="contact.html" target="_blank">Employers</a>
-     </div>
-     <div class="social" "same">
-       <a href="#" class="fa fa-facebook"></a>
-       <a href="#" class="fa fa-twitter"></a>
-       <a href="#" class="fa fa-linkedin"></a>
-     </div>
-     </div>
-     <div>
-        <p> Droom@ 2020  - Privacy policy - Term of Use</p>
-     </div>
-   </footer>
- </div>
-  <script src="index.js"></script>
-</body>
+    <!--NAVBAR-->
+   <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+    <a href="index.html" class="logo"><img src="img/mylogo.png"></a>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="#" class="nav-links">Find Jobs</a>
+      </li>
+      <li>
+        <a href="#" class="nav-links">Post a Job</a>
+      </li>
+      <li>
+        <a href="about.html" class="nav-links">About Us</a>
+      </li>
+       <li>
+        <a href="#" class="nav-links">Sign In</a>
+      </li>
+    </ul>
+  </nav>
+<!--Hero image-->
+  <section class="hero">
+        <div class="hero-inner">
+            <h1>Find Your Dream Job Match Faster!</h1>
+            <h4>Hunting for a new job? Use this site to streamline your search.</h4>
+            <a href="https://example.com/" class="btn">Go ahead...</a>
+        </div>
+    </section>
+<!-- Features section-->
+<section class="features">
+  <div class="feature"> 
+      <a href="#">
+        <img src="img/up_to_date.png" width="" height="" alt="Some sample words">
+      </a>
+      <h3>Up-to-Date Jobs Listings.</h3>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum .</p>
+    </div> 
+    <div class="feature">
+      <a href="#">
+        <img src="img/process.png" width="" height="" alt="Some sample words">
+      </a>
+      <h3>Easy Job Searching Process.</h3>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum .</p>
+    </div> 
+    <div class="feature">   
+      <a href="#">
+        <img src="img/instat_analysis.png" width="" height="" alt="Some sample words">
+      </a>
+       <h3>Instant Company Info Analysis.</h3>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum .</p>
+     </div> 
+</section>
+<!-- Footer section-->
+<footer>
+  <div class="bottom">
+  <div class="link" "same">
+    <a href="about.html">About Us</a>
+    <a href="contact.html" target="_blank">Job Seekers</a>
+    <a href="contact.html" target="_blank">Employers</a>
+  </div>
+  <div class="social" "same">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+  </div>
+  </div>
+  <div>
+     <p> Droom@ 2020  - Privacy policy - Term of Use</p>
+  </div>
+</footer>
+   <script src="index.js"></script>
+ </body>
 </html>
