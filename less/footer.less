@@ -1,19 +1,18 @@
 .bottom{
   display: flex;
   justify-content: space-around;
-}
 
+  @media (min-width: 500px){
+    flex-direction: column;
+  }
+}
 
 .link{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   font-size: 1.4rem;
   padding: 5px;
-
-  @media (min-width: 800px){
-    flex-direction: row;
-  }
-
+ 
 }
 
 .link a{
@@ -21,9 +20,6 @@
   color:white;
   font-size: 1.6rem;
   padding: 20px;
-
-
-
 }
 
 .social{
