@@ -325,10 +325,10 @@ p {
 .fab:hover {
   opacity: 0.7;
 }
-.fa-facebook {
-  background:white;
+.fa-facebook {  
   color:  #00274C;
   margin: 5px;
+  
 }
 .fa-twitter {
   background:white;
