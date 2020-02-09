@@ -331,7 +331,8 @@ p {
   
 }
 .fa-twitter {
- color: whitesmoke;
+ background-color:whitesmoke;
+ color: #00274C;
   margin: 5px;
 }
 .fa-linkedin {
