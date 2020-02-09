@@ -331,13 +331,11 @@ p {
   
 }
 .fa-twitter {
-  background:white;
-  color:  #00274C;
+ color: whitesmoke;
   margin: 5px;
 }
 .fa-linkedin {
-  background:white;
-  color:  #00274C;
+  color:  whitesmoke;
   margin: 5px;
 }
 footer {
