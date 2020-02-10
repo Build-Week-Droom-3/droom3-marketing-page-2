@@ -404,15 +404,23 @@ footer {
   height: 80vh;
   text-align: center;
   color: white;
-  background-image: url("../img/droom1.png");
+  background-image: url("../img/hero1.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .hero h1 {
+  font-size: 5em;
+  font-weight: bolder;
   margin-top: 0;
   margin-bottom: 0.5em;
+}
+.hero h4{
+  font-size: 2.4rem;
+  padding-bottom: 10px;
+  color:#1442ca;
+  font-weight: bolder;
 }
 .hero .btn {
   display: block;
