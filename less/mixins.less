@@ -1,23 +1,35 @@
 // cta button
 
-.btn{
+.btn-special{
     font-size: @btnfontsize;
     background-color: @blue;
     color:  white;
-    border-radius: 5px;
-    border-style: none;
+    border-radius: 20px;
     padding: 10px;
   
          &:hover{
     background-color: darken(@blue, 30%);
-    color: black;
+    color: purple;
      }
     }
   
+    //flex
+.flex-special{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
   // font size
   .font-size(@sizeValue) {
        @remValue: @sizeValue;
        font-size: ~"@{remValue}rem"
+  }
+
+  //social btn
+  .social-btn{
+       background-color: #007bb5;
+       color: white;
+       margin: 5px,
   }
  
