@@ -420,6 +420,7 @@ footer {
 }
 .hero h1 {
   font-size: 5em;
+  font-weight: bolder;
   margin-top: 0;
   margin-bottom: 0.5em;
 }
