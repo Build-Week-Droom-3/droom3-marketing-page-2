@@ -1,24 +1,33 @@
 // cta button
+.btn-special {
+  font-size: @btnfontsize;
+  background-color: @blue;
+  color:  white;
+  border-radius: 20px;
+  padding: 10px;
 
-.btn{
-    font-size: @btnfontsize;
-    background-color: @blue;
-    color:  white;
-    border-radius: 5px;
-    border-style: none;
-    padding: 10px;
-  
-         &:hover{
+  &:hover {
     background-color: darken(@blue, 30%);
-    color: black;
-     }
-    }
+    color: purple;
+  }
+}
   
+//flex
+.flex-special {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
-  //social button
+// font size
+.font-size(@sizeValue) {
+  @remValue: @sizeValue;
+  font-size: ~"@{remValue}rem"
+}
 
-.social-button{
-  background: white;
-  color: #00274C;
+//social btn
+.social-btn {
+  background-color: #007bb5;
+  color: white;
   margin: 5px;
 }
